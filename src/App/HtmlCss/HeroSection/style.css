@@ -1,0 +1,12 @@
+.hero {
+  background-image: url('./images/hero-background.jpg'); /* Ustawienie obrazu jako tła */
+  background-size: cover; /* Obraz tła dopasowuje się do rozmiaru sekcji, zachowując proporcje */
+  background-position: center; /* Obraz jest wyśrodkowany w poziomie i pionie */
+  height: 100vh; /* Sekcja zajmuje 100% wysokości okna przeglądarki */
+  display: flex; /* Flexbox, aby wyrównać zawartość */
+  justify-content: center; /* Wyrównanie zawartości w poziomie na środku */
+  align-items: center; /* Wyrównanie zawartości w pionie na środku */
+  color: white; /* Kolor tekstu ustawiony na biały */
+  text-align: center; /* Wyśrodkowanie tekstu w pionie */
+  position: relative; /* Ustawienie pozycji względnej, aby pseudoelement ::before był z nią powiązany */
+}
